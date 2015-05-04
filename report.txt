@@ -1,0 +1,13 @@
+                         Response Time (s)
+ Transaction      %    Average :    90th %        Total        Rollbacks      %
+------------  -----  ---------------------  -----------  ---------------  -----
+    Delivery   3.99      0.030 :     0.065        17142                0   0.00
+   New Order  45.16      0.024 :     0.042       194198             1942   1.00
+Order Status   4.01      0.009 :     0.013        17248                0   0.00
+     Payment  42.86      0.099 :     0.198       184344                0   0.00
+ Stock Level   3.98      0.008 :     0.014        17128                0   0.00
+------------  -----  ---------------------  -----------  ---------------  -----
+19484.75 new-order transactions per minute (NOTPM)
+10.0 minute duration
+0 total unknown errors
+4.0 seconds(s) ramping up

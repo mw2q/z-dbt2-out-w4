@@ -1,0 +1,89 @@
+connecting to client at 'localhost'
+connecting to client port at '30000'
+
+database table cardinalities:
+warehouses = 4
+districts = 10
+customers = 3000
+items = 100000
+orders = 3000
+stock = 100000
+new-orders = 900
+
+transaction mix:
+new-order mix 0.45
+payment mix 0.43
+order-status mix 0.04
+delivery mix 0.04
+stock-level mix 0.04
+
+transaction thresholds:
+new-order threshold 0.45
+payment threshold 0.88
+order-status threshold 0.92
+delivery threshold 0.96
+stock-level threshold 1.00
+
+delivery keying time 0 s
+new_order keying time 0 s
+order-status keying time 0 s
+payment keying time 0 s
+stock-level keying time 0 s
+
+delivery thinking time 0 ms
+new_order thinking time 0 ms
+order-status thinking time 0 ms
+payment thinking time 0 ms
+stock-level thinking time 0 ms
+
+w_id range 1 to 4
+
+10 terminals per warehouse
+
+600 second steady state duration
+
+driver is starting to ramp up at time 1430600094
+driver will ramp up in  3 seconds
+will stop test at time 1430600697
+seed for 40569:fd27a910 : 2825099311
+seed for 40569:fcfdc910 : 2847633781
+seed for 40569:fcfbc910 : 2847583810
+seed for 40569:fcf9c910 : 2847563415
+seed for 40569:fcf7c910 : 2847267263
+seed for 40569:fcf5c910 : 2847485249
+seed for 40569:fcf3c910 : 2847712324
+seed for 40569:fcf1c910 : 2847421430
+seed for 40569:fcefc910 : 2846329184
+seed for 40569:fcedc910 : 2846381745
+seed for 40569:fcebc910 : 2846873414
+seed for 40569:fce9c910 : 2846832135
+seed for 40569:fce7c910 : 2846270794
+seed for 40569:fce5c910 : 2846243302
+seed for 40569:fce3c910 : 2845947334
+seed for 40569:fce1c910 : 2846690706
+seed for 40569:fcdfc910 : 2844880330
+seed for 40569:fcddc910 : 2845106264
+seed for 40569:fcdbc910 : 2844819207
+seed for 40569:fcd9c910 : 2845582342
+seed for 40569:fcd7c910 : 2845029391
+seed for 40569:fcd5c910 : 2844985400
+seed for 40569:fcd3c910 : 2845012193
+seed for 40569:fcd1c910 : 2844980314
+seed for 40569:fccfc910 : 2843896141
+seed for 40569:fccdc910 : 2843866749
+seed for 40569:fccbc910 : 2844085062
+seed for 40569:fcc9c910 : 2843790696
+seed for 40569:fcc7c910 : 2844533480
+seed for 40569:fcc5c910 : 2843743289
+seed for 40569:fcc3c910 : 2844025210
+seed for 40569:fcc1c910 : 2844256732
+seed for 40569:fcbfc910 : 2852092449
+seed for 40569:fcbdc910 : 2852045042
+seed for 40569:fcbbc910 : 2851493753
+seed for 40569:fcb9c910 : 2851456854
+seed for 40569:fcb7c910 : 2851691709
+seed for 40569:fcb5c910 : 2851920379
+seed for 40569:fcb3c910 : 2851613887
+seed for 40569:fcb1c910 : 2851400651
+terminals started...
+driver is exiting normally
